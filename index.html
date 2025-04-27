@@ -1,467 +1,489 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
-  <title>Rose Kabingu | Poerfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 442</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
 
-  <header>
-    <div class="container">
-      <h1 class="logo">R-kabingu</h1>
-
-      <div class="hamburger" id="hamburger">&#9776;</div>
-      <nav class="nav" id="nav">
-        <div class="close-btn" id="close-btn">&times;</div>
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section class="hero-section">
-    <div class="hero-content">
-      <h1>Hi 👋</h1>
-      <h3>I'm Rose Wanjiru Kabingu</h3>
-      <!-- <h3>UI/UX Designer & IT Student</h3> -->
-      <p>
-        a passionate IT enthusiast specializing in frontend development,
-         UI/UX design, and data analytics. With a keen interest in crafting innovative digital solutions, I combine creativity and technical expertise to deliver impactful user experiences. 
-        Explore my portfolio to learn more about my skills, projects, and professional journey.
-      </p>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/kabingu-rose-386a51354/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/rosewanjirukabingu"><i class="fab fa-github"></i></a>
-      </div>
-      <div class="hero-buttons">
-        <button class="hire-me">Hire Me</button>
-        <button class="download-cv">Download CV</button>
-      </div>
-    </div>
-    <div class="hero-image">
-      <img src="img/home.jpeg" alt="Your Name">
-    </div>
-  </section>
-
-  <!-- ----------------About Section------------------------ -->
-  <section id="about" class="about-section" data-aos="fade-up" data-aos-duration="1000">
-    <div class="about-container">
-
-      <!-- Image Left -->
-      <div class="about-image" data-aos="fade-right" data-aos-delay="200">
-        <img src="img/home.jpeg" alt="About Me">
-      </div>
-
-      <!-- Text Right -->
-      <div class="about-details" data-aos="fade-left" data-aos-delay="400">
-        <h2 class="subtitle">About Me</h2>
-        <p class="description">
-          I am Rose Wanjiru Kabingu, a passionate and innovative IT student at Murang’a University of Technology,
-          currently in my fourth year. My journey in technology is fueled by a deep curiosity and a desire to create
-          impactful digital solutions. I thrive on solving problems, designing seamless user experiences, and bringing
-          ideas to life through web design, UI/UX, data analysis, networking, and animations.
-        </p>
-        <div class="divider"></div>
-        <div class="info-wrapper">
-          <div class="info-column">
-            <p><strong>Name:</strong> Rose Kabingu</p>
-            <p><strong>Email:</strong> kabingurose@mail.com</p>
-          </div>
-          <div class="info-column">
-            <p><strong>From:</strong> Kenya</p>
-            <p><strong>Phone:</strong> +254 795 1302 49</p>
-          </div>
-        </div>
-
-        <div class="about-buttons">
-          <a href="" class="btn amber">Hire Me</a>
-          <a href="#" class="btn outline">Download CV</a>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- ----------------Services Section------------------- -->
-  <section id="services" class="services-section py-16">
-    <div class="section-content">
-      <h2 class="section-heading" data-aos="fade-up">Services</h2>
-      <h1 class="section-title" data-aos="fade-up" data-aos-delay="200">What I Offer</h1>
-      <div class="service-grid">
-        <div class="service-card" data-aos="zoom-in">
-          <h3 class="service-title">Web Development</h3>
-          <p class="service-description">I build responsive, high-performance websites tailored to meet your business
-            goals and deliver a smooth user experience.</p>
-        </div>
-        <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
-          <h3 class="service-title">UI/UX Design</h3>
-          <p class="service-description">I create user-centered designs that offer seamless, intuitive experiences,
-            ensuring both functionality and aesthetics are perfectly balanced.</p>
-        </div>
-        <div class="service-card" data-aos="zoom-in">
-          <h3 class="service-title">Data Analysis</h3>
-          <p class="service-description">I analyze complex data sets using Power BI to uncover key insights, helping
-            businesses make informed decisions and drive growth.</p>
-        </div>
-        <div class="service-card" data-aos="zoom-in">
-          <h3 class="service-title">Network configuration</h3>
-          <p class="service-description">I design and configure secure, high-performance networks, optimizing
-            connectivity and ensuring smooth data flow across systems.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="resume active">
-    <div class="resume-container">
-      <!-- Tab Buttons -->
-      <div class="resume-box">
-        <h2>Why Hire Me?</h2>
-        <p class="desc">
-          EduTogether is a platform that enhances communication between teachers, parents, and administrators,
-          streamlining the exchange of information and assignments.
-        </p>
-        <div class="tab-buttons">
-          <button class="resume-btn active" data-tab="experience">Experience</button>
-          <button class="resume-btn" data-tab="education">Education</button>
-          <button class="resume-btn" data-tab="interest">Interest</button>
-        </div>
-      </div>
-
-      <!-- Tab Content -->
-      <div class="resume-box">
-        <!-- Experience Section -->
-        <div class="resume-detail experience active" data-tab="experience">
-          <h2 class="heading">My <span>Experience</span></h2>
-          <p class="desc">
-            I excel in data analysis with Power BI, turning complex data into actionable 
-            insights through visually engaging dashboards. My skills in networking ensure
-             the design and maintenance of secure, scalable communication infrastructures. 
-             Additionally, I specialize in frontend development and UI/UX design
-             using tools like Figma to craft user-friendly, dynamic digital experiences.
-          </p>
-          <div class="resume-list">
-            <!-- Repeat resume-item as needed -->
-            <div class="resume-item">
-              <p class="year">2022 - Present</p>
-              <h3>Data Analysis with Power BI</h3>
-              <p class="company">Unleashing Insights from Data</p>
-              <p>
-                With expertise in Power BI, I transform raw data into actionable insights.
-                 From creating visually compelling dashboards to implementing advanced analytics,
-                 my work ensures informed decision-making for businesses.
-              </p>
-            </div>
-            <div class="resume-item">
-              <!-- <p class="year">2018 - 2022</p> -->
-              <h3>Frontend Development</h3>
-              <p class="company">University of Nairobi</p>
-              <p>
-                Studied various aspects of computer science including software development, algorithms, and data
-                structures.
-              </p>
-            </div>
-            <div class="resume-item">
-              <!-- <p class="year">2018 - 2022</p> -->
-              <h3>Networking Expertise</h3>
-              <p class="company">Building Reliable and Scalable Networks</p>
-              <p>
-                Proficient in networking, I specialize in designing, implementing, and maintaining secure networks.
-              </p>
-            </div>
-            <div class="resume-item">
-              <!-- <p class="year">2018 - 2022</p> -->
-              <h3>Proficiency in Figma</h3>
-              <p class="company">Designing User-Centric Experiences</p>
-              <p>
-                Using Figma, I conceptualize and prototype intuitive UI/UX designs. My focus on user needs
-                 and creativity ensures engaging and effective solutions for every project.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Education Section -->
-        <div class="resume-detail education" data-tab="education">
-          <h2 class="heading">My <span>Education</span></h2>
-          <p class="desc">
-            I began my academic journey at Woodard Langa Langa Secondary School, earning a mean grade of C+. In 2021, I joined Murang’a University of Technology to pursue a Bachelor’s degree in Information Technology.
-             Alongside my formal education, I have participated in professional development programs like the Power Learn Program and Safaricom Hooks, and completed online courses on SimplyLearn, including Power BI and data analytics.
-          </p>
-          <div class="resume-list">
-            <div class="resume-item">
-              <p class="year">2016 - 2019</p>
-              <h3>Woodard Langa Langa Secondary School</h3>
-              <p class="company">Building a Strong Foundation</p>
-              <p>
-                I began my academic journey at Woodard Langa Langa Secondary School.
-                 This experience laid the groundwork for my future in the field of technology.
-              </p>
-            </div>
-
-            <div class="resume-item">
-              <p class="year">2021 - 2025</p>
-              <h3>Murang’a University of Technology
-            </h3>
-              <p class="company">Advancing in Information Technology</p>
-              <p>
-                In 2021, I joined Murang’a University of Technology to pursue a Bachelor’s degree in Information Technology. This program has allowed me to deepen 
-                my understanding of technology and innovation while exploring my passion for IT.
-              </p>
-            </div>
-
-            <div class="resume-item">
-              <p class="year">2025 - present</p>
-              <h3>Power Learn Program and Safaricom Hooks</h3>
-              <p class="company">Exploring New Frontiers in Technology</p>
-              <p>
-                I am currently part of the Power Learn Program and Safaricom Hooks, where I continue to grow my technical skills and professional knowledge.
-                 These programs provide hands-on experience.
-              </p>
-            </div>
-
-            <div class="resume-item">
-              <p class="year">2025</p>
-              <h3>SimplyLearn Online Platform</h3>
-              <p class="company">Mastering Data Analytics and Power BI</p>
-              <p>
-                Through SimplyLearn, I have completed courses in Power BI and data analytics. These certifications have equipped me with the skills
-                 to analyze complex data and create actionable insights for better decision-making.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Interest Section -->
-        <div class="resume-detail interest" data-tab="interest">
-          <h2 class="heading">My <span>Interests</span></h2>
-          <p class="desc">
-            I have a diverse range of interests in IT, including frontend development, UI/UX design, data science and analytics, cloud computing, network administration,
-             IT project management, and the use of generative AI tools like Leonardo AI.
-          </p>
-          <div class="resume-list">
-            <div class="resume-item">
-              <h3>Cloud Computing</h3>
-              <p>
-                Cloud Computing fascinates me due to its ability to provide scalable and 
-                efficient computing resources on-demand. The idea of businesses using cloud platforms 
-                like AWS, Microsoft Azure, and Google Cloud to enhance
-                 their operations and growth motivates me to explore this field further
-              </p>
-            </div>
-            <div class="resume-item">
-              <h3>UI/UX Design & Web Development</h3>
-              <p>
-                I’m passionate about UI/UX Design & Web Development, as it allows me to merge 
-                creativity with technology. Designing intuitive, user-friendly interfaces and developing 
-                responsive websites is a field I deeply enjoy,
-                 where I can enhance user experiences through well-crafted digital solutions.
-              </p>
-            </div>
-            <div class="resume-item">
-              <h3>Network Administration</h3>
-              <p>
-                Network Administration is another area of interest where I can apply my problem-solving skills
-                 to ensure that an organization's network infrastructure is secure and performs efficiently. The technical aspect of 
-                managing and troubleshooting networks excites me, and I am eager to delve deeper into this field.
-              </p>
-            </div>
-
-            <div class="resume-item">
-              <h3>Data Science & Analytics</h3>
-              
-              <p>
-                Data Science & Analytics is a field that strongly aligns with my interest in extracting
-                 valuable insights from large datasets. I enjoy working with data, uncovering patterns, and applying 
-                statistical methods and machine learning algorithms to help businesses make informed decisions.
-              </p>
-            </div>
-
-            <div class="resume-item">
-              <h3>Frontend Development</h3>
-              <p>
-                I am passionate about Frontend Development, where I specialize in creating responsive
-                 and interactive user interfaces. Using technologies like HTML, CSS, JavaScript, 
-                 and frameworks such as React, I enjoy crafting visually 
-                appealing and user-friendly web applications that provide seamless digital experiences.
-              </p>
-            </div>
-
-            <div class="resume-item">
-              <h3>Generative AI Tools</h3>
-              <p>
-                I leverage Leonardo AI, a cutting-edge generative AI platform, to create high-quality visual 
-                content and design assets. Its advanced capabilities allow me to produce, customize, 
-                and enhance digital designs efficiently, supporting my creative and professional endeavors.
-              </p>
-            </div>
-            <!-- Add more resume-item divs as needed -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- -----------------Portfolio Sections----------------- -->
-
-  <section id="portfolio" class="portfolio">
-    <h2 class="section-heading" data-aos="fade-up">Portfolio</h2>
-    <p data-aos="fade-up" data-aos-delay="200">Check out some of my projects.</p>
-    <div class="projects">
-        
-  <div class="flip-card" data-aos="fade-up" data-aos-delay="300">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="img/figma.1.jpeg" alt="Project Image">
-      </div>
-      <div class="flip-card-back">
-        <h3>Figma Design</h3>
-        <p>I design intuitive, user-friendly mobile interfaces with a focus on accessibility, aesthetics, and seamless interactions.</p>
-        <a href="https://www.figma.com/proto/xmUZ0z5eQkzyyPls2bnyhA/mobile-app-for-rental-houses?node-id=15-73&p=f&t=DAvcVgUPNoGbNbMn-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A22">View Project</a>
-      </div>
-    </div>
-  </div>
- 
-  <div class="flip-card" data-aos="fade-up" data-aos-delay="500">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="img/figma.2.jpeg" alt="Project Image">
-      </div>
-      <div class="flip-card-back">
-        <h3>Figma Design</h3>
-        <p>I design user-friendly, visually appealing interfaces with a focus on seamless experiences, accessibility, and modern aesthetics.</p>
-        <a href="https://www.figma.com/proto/gwzHrt6XaMafbQiY2E2AMT/interior-design?node-id=1-2&p=f&t=N5tYomNLdEJBWX7G-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1">View Project</a>
-      </div>
-    </div>
-  </div>
-
   
-  <div class="flip-card" data-aos="fade-up" data-aos-delay="700">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="img/web.jpeg" alt="Project Image">
+    <!-- Navbar -->
+     <div class="top-color">
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">UI Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Blog List</a></li>
+                <li><a class="dropdown-item" href="#">Blog Single</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#Biography">Biography</a></li>
+                <li><a class="dropdown-item" href="#Whatt">What i do for you</a></li>
+                <li><a class="dropdown-item" href="#Skills">My Skills</a></li>
+                <li><a class="dropdown-item" href="#Work">My succes work</a></li>
+                <li><a class="dropdown-item" href="#Foot">Footer</a></li>
+                <li><a class="dropdown-item" href="#Testimonials">Testimonials</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+            <li class="nav-item ms-3">
+              <a href="#" class="btn btn-custom">Hire Me</a>
+            </li>
+
+            <li class="nav-item ms-3">
+              <a href="#" class="nav-link icon-link">
+                <i class="bi bi-search"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link icon-link">
+                <i class="bi bi-moon"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="flip-card-back">
-        <h3>EduTogether</h3>
-        <p>EduTogether is a platform that enhances communication between
-             teachers, parents, and administrators, streamlining the exchange
-              of information, assignments, 
-            and announcements in real-time.</p>
-        <a href="https://frontend-edutogether.vercel.app/">View Project</a>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero-section mb-0 mt-0 border-bottom-0">
+      <div class="container py-5 pb-0 mb-0 border-bottom-0">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="hero-title mb-3">
+              Hi, I'm John Watson<br>
+              <span class="hero-highlight"><span class="outline-text">Web De</span></span>
+            </h1>
+            <p class="lead text-light mb-4">
+              I love Graphic design and Photography and have been working on my portfolio since 2016. 
+              I can give your business a new Creative start right away!
+            </p>
+            <div class="d-flex gap-3">
+              <a href="#" class="btn btn-custom">Hire Me</a>
+              <a href="#" class="btn btn-outline-custom">My Portfolio</a>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img src="./images/john watson.png" class="img-fluid hero-img" alt="Profile Picture" width="300" height="300">
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   </div>
 
-  <div class="flip-card" data-aos="fade-up" data-aos-delay="700">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="img/kab.png" alt="Project Image">
-      </div>
-      <div class="flip-card-back">
-        <h3>portfolio</h3>
-        <p>A collection of work, skills, and achievements that showcases my individual’s expertise. </p>
-        <a href="https://github.com/rosewanjirukabingu/portfolio">View Project</a>
+
+    <!-- About Me Section -->
+     <div>
+  <section class="about-me-section py-2 pt-0" id="Biography">
+    <div class="container about-container p-5 rounded-4">
+      <div class="row align-items-center">
+        
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <img src="./images/john watson.png" alt="Profile Picture" class="img-fluid" width="400" height="400">
+        </div>
+        
+        <div class="col-lg-7">
+          <p class="text-uppercase text-muted small mb-2">My Biography</p>
+          <h2 class="mb-3">A Lead UI Designer & Web Developer<br> Based In UK</h2>
+          <p class="text-muted mb-4">
+            I love Graphic design and Photography and have been working on my portfolio since 2016. 
+            I can give your business a new Creative start right away! Contact me and we will discuss your projects!
+          </p>
+          
+          <div class="row mb-4">
+            <div class="col-sm-6">
+              <p><strong>Name:</strong> John Watson</p>
+              <p><strong>Email:</strong> example@mail.com</p>
+            </div>
+            <div class="col-sm-6">
+              <p><strong>From:</strong> London, UK</p>
+              <p><strong>Phone:</strong> +21 234 567 8901</p>
+            </div>
+          </div>
+          
+          <div class="mb-4">
+            <p class="mb-2"><strong>Follow me on</strong></p>
+            <a href="#" class="me-3 text-decoration-none text-dark"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="me-3 text-decoration-none text-dark"><i class="bi bi-behance"></i></a>
+            <a href="#" class="me-3 text-decoration-none text-dark"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-decoration-none text-dark"><i class="bi bi-twitter"></i></a>
+          </div>
+          
+          <div class="d-flex gap-3">
+            <a href="#" class="btn btn-custom">Hire Me</a>
+            <a href="#" class="btn btn-outline-custom">Download CV</a>
+          </div>
+          
+        </div>
+        
       </div>
     </div>
-  </div>
-</section>
-  <!-- -------------contact------------------ -->
-  <section id="contact" class="contact-section">
-    <div class="contact-container">
-      <div class="contact-header">
-        <h2>Let’s Connect</h2>
-        <p>Have a project or just want to say hello? I’d love to hear from you.</p>
-      </div>
-      <form class="contact-form">
-        <div class="input-group">
-          <input type="text" placeholder="Full Name" required />
-          <input type="email" placeholder="Email Address" required />
+  </section>
+</div>
+
+
+
+
+
+
+    <!-- Services Section -->
+  <section class="services-section py-5 border-top-2 border-bottom-4" id="Whatt">
+    <div class="container services-container text-center">
+      <h2 class="mb-5">What I Do For You</h2>
+      
+      <div class="row g-4">
+        
+        <div class="col-md-4">
+          <div class="service-card p-4 rounded-4 shadow-sm h-100">
+            <div class="icon mb-3">
+              <i class="bi bi-laptop" style="font-size: 3rem; color: #00796b;"></i>
+            </div>
+            <h5>Web Development</h5>
+            <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
+          </div>
         </div>
-        <input type="text" placeholder="Subject" required />
-        <textarea placeholder="Your Message" rows="6" required></textarea>
-        <button type="submit" class="btn-send">Send Message</button>
-      </form>
+        
+        <div class="col-md-4">
+          <div class="service-card p-4 rounded-4 shadow-sm h-100">
+            <div class="icon mb-3">
+              <i class="bi bi-phone" style="font-size: 3rem; color: #00796b;"></i>
+            </div>
+            <h5>App Development</h5>
+            <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="service-card p-4 rounded-4 shadow-sm h-100">
+            <div class="icon mb-3">
+              <i class="bi bi-camera" style="font-size: 3rem; color: #00796b;"></i>
+            </div>
+            <h5>Photography</h5>
+            <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="mt-4">
+        <a href="#" class="more-services-link">
+          More Services <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+      
     </div>
   </section>
 
 
-  <!-- -------footer---------------- -->
-  <footer class="site-footer">
-    <div class="footer-container">
-      <div class="footer-about">
-        <h3>Rose Kabingu</h3>
-        <p>Passionate IT student & creative developer building beautiful, functional digital experiences.</p>
-      </div>
 
-      <div class="footer-links">
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+<!-- My skills -->
+  <div class="col-md-6 container my-skills-section" id="Skills">
+    <div class="row g-0 border-0 rounded overflow-hidden flex-md-row mb-4  h-md-250 position-relative">
+      <div class="col-auto d-none d-lg-block my-skills-image">
+        <img src="https://images.pexels.com/photos/6953872/pexels-photo-6953872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Skills" class="img-fluid" height="400" width="400">
       </div>
-
-      <div class="footer-contact">
-        <h4>Contact</h4>
-        <p>Email: <a href="mailto:kabingurose@mail.com">kabingurose@mail.com</a></p>
-        <p>Phone: +254 795 1302 49</p>
-        <div class="footer-social">
-            <a href="https://www.linkedin.com/in/kabingu-rose-386a51354/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/rosewanjirukabingu"><i class="fab fa-github"></i></a>
+      <div class="col p-4 d-flex flex-column position-static">
+        <small class="text-uppercase text-muted">My Skills</small>
+        <h2 class="mb-3 custom-number">My Featured Skills</h2>
+        <p class="mb-4 stats-text">I specialize in Branding and Strategy, and am passionate about creating Awesome Portfolio work. And I always ready to impress the audience with my Creativity.</p>
+  
+        <div class="skill">
+          <h6>UI/UX Design</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%;"></div>
+          </div>
+        </div>
+  
+        <div class="skill">
+          <h6>Ideas & Technology</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 90%;"></div>
+          </div>
+        </div>
+  
+        <div class="skill">
+          <h6>Branding Design</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 70%;"></div>
+          </div>
+        </div>
+  
+        <div class="skill">
+          <h6>Responsive Web Design</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 95%;"></div>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+  
+ 
 
-    <div class="footer-bottom">
-      <p>&copy; 2025 Rose Kabingu. All rights reserved.</p>
+
+
+
+
+
+  <div class="section-three">
+  <div class="container py-5 pb-0" style="background-color: whitesmoke;">
+    <div class="row align-items-center">
+      
+      <!-- Skills Section -->
+      <div class="col-md-7">
+        <div class="row g-4">
+          
+          <div class="col-6">
+            <div class="d-flex">
+              <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="" width="32" height="32" class="me-3">
+              <div>
+                <h6 class="fw-bold mb-1 custom-number">Web Development</h6>
+                <p class="small text-muted mb-0">Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-6">
+            <div class="d-flex">
+              <img src="https://cdn-icons-png.flaticon.com/512/1055/1055681.png" alt="" width="32" height="32" class="me-3">
+              <div>
+                <h6 class="fw-bold mb-1 custom-number">Design Trends</h6>
+                <p class="small text-muted mb-0">Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-6">
+            <div class="d-flex">
+              <img src="https://cdn-icons-png.flaticon.com/512/1055/1055676.png" alt="" width="32" height="32" class="me-3">
+              <div>
+                <h6 class="fw-bold mb-1 custom-number">Research & Analysis</h6>
+                <p class="small text-muted mb-0">Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-6">
+            <div class="d-flex">
+              <img src="https://cdn-icons-png.flaticon.com/512/1055/1055673.png" alt="" width="32" height="32" class="me-3">
+              <div>
+                <h6 class="fw-bold mb-1 custom-number">Customer Support</h6>
+                <p class="small text-muted mb-0">Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-6">
+            <div class="d-flex">
+              <img src="https://cdn-icons-png.flaticon.com/512/1055/1055690.png" alt="" width="32" height="32" class="me-3">
+              <div>
+                <h6 class="fw-bold mb-1 custom-number">Responsive Design</h6>
+                <p class="small text-muted mb-0">Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-6">
+            <div class="d-flex">
+              <img src="https://cdn-icons-png.flaticon.com/512/1055/1055697.png" alt="" width="32" height="32" class="me-3">
+              <div>
+                <h6 class="fw-bold mb-1 custom-number">PSD Design</h6>
+                <p class="small text-muted mb-0">Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+  
+      <!-- Image Section -->
+      <div class="col-md-5 text-center mt-4 mt-md-0">
+        <img src="./images/john watson.png" alt="Profile" class="img-fluid" height="300" width="300" style="max-width: 350px;">
+      </div>
+  
     </div>
-  </footer>
-
-  <script>
-    document.getElementById('hamburger').addEventListener('click', function () {
-      document.getElementById('nav').classList.add('active');
-    });
-
-    document.getElementById('close-btn').addEventListener('click', function () {
-      document.getElementById('nav').classList.remove('active');
-    });
-
-    document.addEventListener('DOMContentLoaded', () => {
-        const tabButtons = document.querySelectorAll('.resume-btn');
-        const tabContents = document.querySelectorAll('.resume-detail');
+  </div>
+</div>
+  
+      <!-- Numbers -->
+      <div class="py-5" style="background-color: #ffffff;" id="Testimonials"> 
+        <div class="container">
+          <div class="row text-center">
+            
+            <div class="col-6 col-md-3 mb-4 mb-md-0">
+              <h2 class="fw-bold mb-2 custom-number">135</h2>
+              <p class="text-muted mb-0">Finished Projects</p>
+            </div>
       
-        tabButtons.forEach(button => {
-          button.addEventListener('click', () => {
-            const targetTab = button.getAttribute('data-tab');
+            <div class="col-6 col-md-3 mb-4 mb-md-0">
+              <h2 class="fw-bold mb-2 custom-number">225</h2>
+              <p class="text-muted mb-0">Working Hours</p>
+            </div>
       
-            // Remove 'active' class from all buttons and contents
-            tabButtons.forEach(btn => btn.classList.remove('active'));
-            tabContents.forEach(content => content.classList.remove('active'));
+            <div class="col-6 col-md-3 mb-4 mb-md-0">
+              <h2 class="fw-bold mb-2 custom-number">115</h2>
+              <p class="text-muted mb-0">Online Support</p>
+            </div>
       
-            // Add 'active' class to the clicked button and corresponding content
-            button.classList.add('active');
-            document.querySelector(`.resume-detail[data-tab="${targetTab}"]`).classList.add('active');
-          });
-        });
-    });
+            <div class="col-6 col-md-3 mb-4 mb-md-0">
+              <h2 class="fw-bold mb-2 custom-number">272</h2>
+              <p class="text-muted mb-0">Happy Customers</p>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      
+      
 
-  </script>
+
+
+      <!-- My success work -->
+      <div class="success-work-section" id="Work">
+        <div class="container py-5">
+          <h2 class="text-center mb-4 custom-number">My Success Work</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="success-card images1">
+                <img src="https://images.pexels.com/photos/7015034/pexels-photo-7015034.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded" alt="Work Image 1">
+              </div>
+            </div>
+            <div class="col">
+              <div class="success-card images1">
+                <img src="https://images.pexels.com/photos/1188751/pexels-photo-1188751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded" alt="Work Image 2">
+              </div>
+            </div>
+            <div class="col">
+              <div class="success-card images1">
+                <img src="https://images.pexels.com/photos/3862632/pexels-photo-3862632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded" alt="Work Image 3">
+              </div>
+            </div>
+            <div class="col">
+              <div class="success-card images1">
+                <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded" alt="Work Image 4">
+              </div>
+            </div>
+            <div class="col">
+              <div class="success-card images1">
+                <img src="https://images.pexels.com/photos/4705623/pexels-photo-4705623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded" alt="Work Image 5">
+              </div>
+            </div>
+            <div class="col">
+              <div class="success-card images1">
+                <img src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded" alt="Work Image 6">
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="green-bar d-flex justify-content-center align-items-center">
+          <div class="container text-center">
+            <div class="row row-cols-2 row-cols-md-4 g-3">
+              <div class="col icons1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8GtqtuH3S_6wu0oXpAM4OuxpYlKL5Nxi4sw&s" alt="Icon 1">
+              </div>
+              <div class="col icons1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8GtqtuH3S_6wu0oXpAM4OuxpYlKL5Nxi4sw&s" alt="Icon 2">
+              </div>
+              <div class="col icons1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8GtqtuH3S_6wu0oXpAM4OuxpYlKL5Nxi4sw&s" alt="Icon 3">
+              </div>
+              <div class="col icons1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8GtqtuH3S_6wu0oXpAM4OuxpYlKL5Nxi4sw&s" alt="Icon 4">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+     
+
+      <!-- FOOTER -->
+      <footer class="footer-section" id="Foot">
+        <div class="container text-center py-5">
+          <img src="https://static.vecteezy.com/system/resources/previews/026/454/516/non_2x/ux-ui-icon-vector.jpg" alt="Logo" class="mb-3 rounded-circle">
+          <h5 class="text-white mb-3">UI Portfolio</h5>
+          <p class="text-white-50 mb-1">
+            <i class="bi bi-telephone-fill me-2"></i>+12 345 678 900
+            <span class="mx-2">|</span>
+            <i class="bi bi-envelope-fill me-2"></i>info@example.com
+            <span class="mx-2">|</span>
+            <i class="bi bi-geo-alt-fill me-2"></i>208 Avenue street, UK - 62517
+          </p>
+        </div>
+      
+        <div class="footer-bottom py-3">
+          <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <p class="text-white-50 mb-0">© 2025 UI Portfolio. All Rights Reserved</p>
+            <div class="social-icons">
+              <a href="#"><i class="bi bi-facebook text-white mx-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg>
+              </i></a>
+              <a href="#"><i class="bi bi-twitter text-white mx-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                </svg>
+              </i></a>
+              <a href="#"><i class="bi bi-google text-white mx-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                  <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+                </svg>
+              </i></a>
+              <a href="#"><i class="bi bi-github text-white mx-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+              </i></a>
+            </div>
+          </div>
+        </div>
+      
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+          </svg>
+          <i class="bi bi-arrow-up-short"></i>
+        </a>
+      </footer>
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
-
 </html>
