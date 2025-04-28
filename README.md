@@ -1,7 +1,7 @@
 # UI Portfolio - Group 442 Project
 
 ## Project Description
-This is a responsive UI Portfolio website, developed as part of Group 442's collaboration project.  
+This is a responsive [UI Portfolio website](https://group442.vercel.app/), developed as part of Group 442's collaboration project.  
 It showcases a professional portfolio layout featuring a homepage, about section, services offered, skills, successful works, and a contact option.  
 The project is built using **HTML**, **CSS**, and **Bootstrap 5** for styling and responsiveness.
 
